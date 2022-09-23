@@ -22,9 +22,7 @@ header {
     list-style: none;
 }
 
-.menu a,
-.menu a:active,
-.menu a:focus {
+.menu a {
     display: inline-block;
     font-size: 13px;
     text-decoration: none;
@@ -33,9 +31,9 @@ header {
     padding: 5px 35px;
 }
 
-.menu a:hover {
-    font-size: 13px;
-    text-decoration: none;
+.menu a:hover,
+.menu a:focus,
+.menu a:active  {
     color: rgb(58, 58, 58);
     font-weight: bold;
     background-color: rgb(173, 228, 228);
@@ -104,17 +102,15 @@ hr {
     color: white;
 }
 
-.kontakty a,
-.kontakty a:active,
-.kontakty a:focus {
+.kontakty a {
     font-size: 15px;
     text-decoration: none;
     color: white;
 }
 
-.kontakty a:hover {
-    font-size: 15px;
-    text-decoration: none;
+.kontakty a:hover,
+.kontakty a:focus,
+.kontakty a:active {
     color: rgb(58, 58, 58);
     font-weight: bold;
 }
